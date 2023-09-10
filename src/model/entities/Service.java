@@ -29,6 +29,6 @@ public class Service {
 
     @Override
     public String toString () {
-        return "Name: " + this.name + "Value: " + this.value + "Tax: " + this.tax;
+        return "Name: " + this.name + " Value: " + this.value + " Tax: " + this.tax;
     }
 }

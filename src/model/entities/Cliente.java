@@ -1,5 +1,7 @@
 package model.entities;
 
+import java.util.ArrayList;
+
 public class Cliente {
 
     private String name;
@@ -13,9 +15,19 @@ public class Cliente {
         this.contract = contract;
     }
 
+    public String getClientName () {
+        return this.name;
+    }
+
+    public Integer getClientContract () {
+        return this.contract;
+    }
+
     @Override
     public String toString () {
-        return "Cliente: " + this.name + " Contrct: " + this.contract;
+
+        return "Cliente: " + this.name +
+                "Contrct: " + this.contract;
     }
 
 }

@@ -24,9 +24,8 @@ public class Program {
 
         System.out.println(fatura1.getServices());
 
-
         System.out.println(fatura1.calculateBill());
-
+        System.out.println(fatura1.displayBill());
 
     }
 }

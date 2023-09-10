@@ -23,5 +23,10 @@ public class FaturaSustituicion implements Fatura {
         return 1.0;
     }
 
+    @Override
+    public String displayBill () {
+        return "a";
+    }
+
 
 }
